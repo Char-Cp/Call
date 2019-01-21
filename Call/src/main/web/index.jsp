@@ -1,4 +1,4 @@
-﻿<%@ page language="java" import="java.util.*" pageEncoding="utf-8" isErrorPage="true"%>
+﻿ <%@ page language="java" import="java.util.*" pageEncoding="utf-8" isErrorPage="true"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <head>
     <title>Home</title>
@@ -101,74 +101,6 @@
                         </div>
                         <div class="clear"></div>
                     </div>
-                    <div class="section group">
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="proInfo.jsp"><img src="qiantai/images/feature-pic1.jpg" alt=""/></a>
-                            <h2>张学友演唱会</h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-
-                        </div>
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="qiantai/images/feature-pic2.jpg" alt=""/></a>
-                            <h2>张学友演唱会</h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-
-                        </div>
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="qiantai/images/feature-pic3.jpg" alt=""/></a>
-                            <h2>张学友演唱会</h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="qiantai/images/feature-pic4.jpg" alt=""/></a>
-                            <h2>张学友演唱会</h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="section group">
                         <div class="grid_1_of_4 images_1_of_4">
@@ -187,54 +119,7 @@
                                 <div class="clear"></div>
                             </div>
                         </div>
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="qiantai/images/new-pic2.jpg" alt=""/></a>
-                            <h2>Lorem Ipsum is simply </h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="qiantai/images/new-pic4.jpg" alt=""/></a>
-                            <h2>张学友演唱会</h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="qiantai/images/new-pic3.jpg" alt=""/></a>
-                            <h2>张学友演唱会 </h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
