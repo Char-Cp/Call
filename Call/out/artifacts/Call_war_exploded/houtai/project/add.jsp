@@ -190,7 +190,6 @@
                                         <input type="file" name="file" class="input-text lh30" size="10">
                                     </td>
                                 </tr>
-
                                 <tr>
                                     <td class="td_right">限定名额：</td>
                                     <td class="">
@@ -204,9 +203,6 @@
                                                                 size="10">天
                                     </td>
                                 </tr>
-
-
-
 
                                 <tr>
                                     <td class="td_right">&nbsp;</td>
