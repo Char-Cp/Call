@@ -1,5 +1,6 @@
-﻿<%@ page language="java" import="java.util.*" pageEncoding="utf-8" isErrorPage="true"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8" isErrorPage="true" %>
+
+<!DOCTYPE HTML>
 <head>
     <title>Home</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -17,7 +18,7 @@
     <div class="header">
         <div class="headertop_desc">
             <div class="call">
-                <p><span>百度呼唤平台</span><span class="number"></span></p>
+                <p><span>Need help?</span> call us <span class="number">1-22-3456789</span></p>
             </div>
             <div class="account_desc">
                 <ul>
@@ -56,11 +57,14 @@
                 }
 
                 $(function () {
+
                     var dd = new DropDown($('#dd'));
+
                     $(document).click(function () {
                         // all dropdowns
                         $('.wrapper-dropdown-2').removeClass('active');
                     });
+
                 });
 
             </script>
@@ -94,78 +98,63 @@
                 <div class="content">
                     <div class="content_top">
                         <div class="heading">
-                            <h3>最新项目</h3>
+                            <h3>个人信息</h3>
                         </div>
-                        <div class="see">
-                            <p><a href="allPros.jsp">查看所有项目</a></p>
+                        <div class="clear">
                         </div>
-                        <div class="clear"></div>
                     </div>
-
-
+                    <div class="buttonContent">
+                        <div class="buttonDiv" onclick="history.back();">返回</div>
+                        <div class="buttonDiv" onclick="javascript:alert('操作成功！');">修改资料</div>
+                        <div class="buttonDiv" onclick="javascript:location.href='password.jsp'">修改密码</div>
+                    </div>
                     <div class="section group">
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="images/new-pic1.jpg" alt=""/></a>
-                            <h2>张学友演唱会</h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="images/new-pic2.jpg" alt=""/></a>
-                            <h2>Lorem Ipsum is simply </h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="images/new-pic4.jpg" alt=""/></a>
-                            <h2>张学友演唱会</h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="images/new-pic3.jpg" alt=""/></a>
-                            <h2>张学友演唱会 </h2>
-                            <div class="price-details">
-                                <div class="price-number">
-                                    <p><span class="rupees"></span></p>
-                                </div>
-                                <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
-                                </div>
-                                <div class="add-cart" style="margin-right:2px;">
-                                    <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
-                                </div>
-                                <div class="clear"></div>
+                        <div class="col span_2_of_3">
+                            <div class="contact-form">
+                                <form method="post" action="contact-post.html">
+                                    <div>
+                                        <span><label>用户名</label></span>
+                                        <span><input name="userName" type="text" class="textbox" value="zhangsan"
+                                                     readonly></span>
+                                    </div>
+                                    <div>
+                                        <span><label>所在地区</label></span>
+                                        <span>
+                                <select>
+                                	<option>北京</option>
+                                    <option>天津</option>
+                                    <option>上海</option>
+                                    <option>深圳</option>
+                                </select>
+                                <select>
+                                	<option>海淀</option>
+                                    <option>朝阳</option>
+                                    <option>东城</option>
+                                    <option>西城</option>
+                                </select>
+                                </span>
+                                    </div>
+                                    <div>
+                                        <span><label>街道地址</label></span>
+                                        <span><input name="" type="text" class="textbox" value="上地西路125号"/></span>
+                                    </div>
+                                    <div>
+                                        <span><label>邮政编码</label></span>
+                                        <span><input name="" type="text" class="textbox" value="073000"/></span>
+                                    </div>
+                                    <div>
+                                        <span><label>收货人</label></span>
+                                        <span><input name="" type="text" class="textbox" value="王思凯"/></span>
+                                    </div>
+                                    <div>
+                                        <span><label>手机号码</label></span>
+                                        <span><input name="" type="text" class="textbox" value="13526899874"/></span>
+                                    </div>
+                                    <div>
+                                        <span><label>电话号码</label></span>
+                                        <span><input name="" type="text" class="textbox" value="010-82825636"/></span>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -189,7 +178,7 @@
             <script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript'
                     charset='gb2312'></script>
         </div>
-    </div>
+</div>
 </body>
 </html>
 
