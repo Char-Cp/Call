@@ -6,6 +6,7 @@ public class test {
 
         System.out.printf("testi");
 
+        System.out.printf("test2");
     }
 
 }
