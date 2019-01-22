@@ -101,17 +101,19 @@
                         </div>
                         <div class="clear"></div>
                     </div>
-
                     <div class="section group">
+
+
+
                         <div class="grid_1_of_4 images_1_of_4">
-                            <a href="preview.html"><img src="qiantai/images/new-pic1.jpg" alt=""/></a>
+                            <a href="preview.html"><img src="qiantai/images/feature-pic2.jpg" alt=""/></a>
                             <h2>张学友演唱会</h2>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees"></span></p>
                                 </div>
                                 <div class="add-cart">
-                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4>
+                                    <h4><a href="javascript:alert('关注成功');">关注</a></h4
                                 </div>
                                 <div class="add-cart" style="margin-right:2px;">
                                     <h4><a href="javascript:location.href='huhuan.jsp'">呼唤</a></h4>
@@ -119,6 +121,10 @@
                                 <div class="clear"></div>
                             </div>
                         </div>
+
+
+
+
 
                     </div>
                 </div>
